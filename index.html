@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Ropa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        .producto {
+            background-color: white;
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 10px;
+            display: inline-block;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a Nuestra Tienda de Ropa</h1>
+        <nav>
+            <ul>
+                <li><a href="#ropa">Ropa</a></li>
+                <li><a href="#accesorios">Accesorios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="ropa">
+            <h2>Ropa</h2>
+            <!-- Aquí puedes añadir productos de ropa -->
+            <div class="producto">
+                <img src="camiseta.jpg" alt="Camiseta">
+                <p>Camiseta básica - $20</p>
+            </div>
+            <!-- Añadir más productos como el anterior -->
+        </section>
+
+        <section id="accesorios">
+            <h2>Accesorios</h2>
+            <!-- Aquí puedes añadir productos de accesorios -->
+            <div class="producto">
+                <img src="sombrero.jpg" alt="Sombrero">
+                <p>Sombrero de moda - $15</p>
+            </div>
+            <!-- Añadir más productos como el anterior -->
+        </section>
+    </main>
+
+    <footer>
+        <p>Contacto: info@nuestratienda.com</p>
+    </footer>
+</body>
+</html>
+
